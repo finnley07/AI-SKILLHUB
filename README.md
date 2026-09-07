@@ -31,7 +31,8 @@ Claude discovers a skill by its `description` and invokes it automatically when 
 | [accessibility-check](accessibility-check/SKILL.md)   | WCAG/a11y conformance check for web and mobile, plus European Accessibility Act (EAA)/BFSG applicability            |
 | [i18n-check](i18n-check/SKILL.md)                     | Internationalization/localization readiness: translation completeness, pluralization, RTL, locale-aware formatting |
 
-More skills are being added over time — contributions welcome.
+More skills are being added over time — contributions welcome.  
+**Repository is still work in progress.**   
 
 ## Contributing
 
