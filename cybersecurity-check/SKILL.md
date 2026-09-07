@@ -1,7 +1,27 @@
 ---
 name: cybersecurity-check
-description: Runs a comprehensive, EU-focused security and GDPR/DSGVO compliance check across a project's backend, frontend, and deployment configuration, then reports the results as one table (check, area, status, evidence, recommendation). Covers application security (OWASP-style: SSRF, injection, auth, access control, headers, secrets, rate limiting, ...), GDPR (Art. 5–49: legal basis, special-category data, data subject rights, international transfers, DPIA, DPA/AVV, breach handling, retention/deletion), ePrivacy/cookie & tracking consent, email authentication (SPF/DKIM/DMARC), mobile-app specifics, and applicability of adjacent EU regulations (AI Act, Accessibility Act, NIS2, DSA, PSD2). Use this whenever the user asks for a "security check", "cybersecurity check", "security audit", "sicherheitscheck", "pentest-light", "security readiness review", "DSGVO check", "GDPR compliance check", or asks about any specific item this covers (SSRF, open redirects, webhook replay, email verification, staging data, SPF/DKIM/DMARC, consent-gated tracking, DPA/AVV, deletion concept, privacy policy, data subject rights, DPIA, EU AI Act transparency, accessibility) — even if they only name one or two and not "security check" explicitly. Also trigger before a production/store launch when the user asks "are we ready to go live" or similar readiness questions.
----
+description: >-
+  Runs a comprehensive, EU-focused security and GDPR/DSGVO compliance check
+  across a project's backend, frontend, and deployment configuration, then
+  reports the results as one table (check, area, status, evidence,
+  recommendation). Covers application security (OWASP-style: SSRF, injection,
+  auth, access control, headers, secrets, rate limiting, ...), GDPR (Art.
+  5–49: legal basis, special-category data, data subject rights,
+  international transfers, DPIA, DPA/AVV, breach handling,
+  retention/deletion), ePrivacy/cookie & tracking consent, email
+  authentication (SPF/DKIM/DMARC), mobile-app specifics, and applicability of
+  adjacent EU regulations (AI Act, Accessibility Act, NIS2, DSA, PSD2). Use
+  this whenever the user asks for a "security check", "cybersecurity check",
+  "security audit", "sicherheitscheck", "pentest-light", "security readiness
+  review", "DSGVO check", "GDPR compliance check", or asks about any specific
+  item this covers (SSRF, open redirects, webhook replay, email
+  verification, staging data, SPF/DKIM/DMARC, consent-gated tracking,
+  DPA/AVV, deletion concept, privacy policy, data subject rights, DPIA, EU AI
+  Act transparency, accessibility) — even if they only name one or two and
+  not "security check" explicitly. Also trigger before a production/store
+  launch when the user asks "are we ready to go live" or similar readiness
+  questions.
+---  
 
 # Cybersecurity & GDPR Check
 
